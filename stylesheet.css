@@ -1,5 +1,7 @@
 body{
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #logo{
@@ -17,8 +19,53 @@ body{
     width: 484px;
     height: 46px;
     border-radius: 25px;
+    padding: 0 8px;
+    font-size: 16px;
 }
-
-
+div{
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    padding: 0 15px;
+    color: black;
+}
+#gb{
+    display: block;
+    top: 16px;
+    position: relative;
+    width: 100%;
+   
 
 }
+#left-header{
+    position: absolute;
+    margin: 7px 0 0 10px;
+    font-size: 13px;
+    opacity: 0.75;
+}
+ #right-header{
+     flex-basis: auto;
+     flex-grow: 1;
+     display: block;
+     min-width: 165px;
+     font-size: 13px;
+     color: black;
+     justify-content: flex-end;
+     order: 1;
+     position: relative;
+     text-align: right;
+     padding:7px 60px 60px 30px;
+ }
+ #sign-in{
+     color: #fff;
+     background: #4887ef;
+     margin-right: 50px;
+     padding: 7px 15px;
+     border-radius: 3px;
+     font-weight: bold;
+ }
